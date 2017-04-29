@@ -44,7 +44,7 @@
             android:key="perf_seekbar"
             android:title="@string/perf_profile_title"
             android:max="4"
-            android:defaultValue="1"
+            android:defaultValue="3"
             android:persistent="false"
             android:layout="@layout/preference_slider" />
 
@@ -52,7 +52,7 @@
             android:key="app_perf_profiles_enabled"
             android:title="@string/app_perf_profiles_title"
             android:summary="@string/app_perf_profiles_summary"
-            android:defaultValue="true" />
+            android:defaultValue="false" />
 
     </PreferenceCategory>
 </PreferenceScreen>
