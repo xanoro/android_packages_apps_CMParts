@@ -86,7 +86,7 @@ public class Utilities {
      */
     public static boolean isStatsCollectionEnabled(Context context) {
         return CMSettings.Secure.getInt(context.getContentResolver(),
-                CMSettings.Secure.STATS_COLLECTION, 1) != 0;
+                CMSettings.Secure.STATS_COLLECTION, 0) != 0;
     }
 
     /**
